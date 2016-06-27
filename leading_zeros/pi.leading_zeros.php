@@ -23,7 +23,7 @@ class leading_zeros {
         return $result;
     }
 
-    public function usage() {
+    public static function usage() {
         ob_start();
     ?>
         Use {exp:leading_zeros number="" digits=""} to output fixed digit number
